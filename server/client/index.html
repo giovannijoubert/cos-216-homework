@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='en'>
+   <head>
+      <meta charset='UTF-8'>
+      <title>Streaming | CluedUP - The Premiere Movie Database</title>
+      <meta name='author' content='Giovanni Joubert'>
+      <meta name='description' content='The Premiere Movie Database'>
+      <link rel='stylesheet' href='css/main.css' type='text/css'>
+      <link rel='icon' href='img/favico.png' type='image/png'>
+      <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.1/css/all.css' integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr' crossorigin='anonymous'>
+      <link rel='stylesheet' id='dark' href='css/dark.css' type='text/css'>
+      <meta content='width=device-width, initial-scale=1' name='viewport' />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+   </head>
+   <body>
+  <header>
+         <nav>
+            <span><img alt='CluedUP Logo' class='topLogo' src='img/mainlogo.svg'></span>
+            <ul class='topNav'>
+            </ul>
+         </nav>   
+         <div class='welcome-msg'>
+            <h1>Streaming</h1>
+            <h3>The Premiere Movie Database</h3>
+         </div>
+        <svg class='custom-header-shape' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'>
+            <polygon  points='0,100 100,0 100,100'/>
+         </svg>
+    </header>
+
+   
+       
+    <form id="login" type="post">
+      <div class="sign_container register_fields ">
+        <h1>Login</h1>
+        <p>Please fill in the form below to login to your CluedUP account.</p>
+        <hr>
+          
+        <label for="uEmail"><b>Email</b></label>
+        <input type="text" id="uEmail" placeholder="Enter Email" name="uEmail" required>
+    
+        <label for="uPassword"><b>Password</b></label>
+        <input type="password" id="uPassword"  placeholder="Enter Password" name="uPassword" required>
+    
+        <hr>
+    
+        <input type="hidden" id="socketID"  name="socketID">
+    
+         
+        <button type="submit" class="loginbtn">Sign in</button>
+      </div>
+    
+
+     
+      <div class="sign_container signin">
+        <p>Don't have an account? <a href="http://wheatley.cs.up.ac.za/u18009035/assignment4/signup.php">Sign up</a>.</p>
+      </div>
+    </form>
+        
+    <script src="js/cluedup_stream.js"></script>
+</body>
+</html>

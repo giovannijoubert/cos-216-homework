@@ -1,0 +1,110 @@
+/*DARK OVERIDES*/
+.custom-header-shape polygon{
+    fill: #17181b;
+  
+}
+ body {
+     background: #17181b;
+        
+}
+.search-bar {
+    color: #a0a0a0;
+    background-image: linear-gradient(#17181b, #17181b), radial-gradient(circle at top left, #3494E6,#7deddc);
+}
+p, label {
+	color: #a0a0a0;
+}
+.posters-holder p{
+	color: #fff;
+}
+
+.posters-holder span{
+	color: #fff;
+}
+
+.posters-holder .single-poster-age-rating{
+	color: #fff;
+}
+
+.rate:not(:checked) > label {
+    color: #a0a0a0;
+}
+::placeholder {
+	color: #a0a0a0;
+}
+.popup {
+    background-image: linear-gradient(#17181b, #17181b), radial-gradient(circle at top left, #ee0979,#ff6a00);
+}
+.calendar {
+    background-color: #252527;
+    color: #a0a0a0;
+}
+.movie_title{
+	color: #cecece;
+}
+
+.ei_Title {
+    color: #a0a0a0;
+}
+
+#DownloadCal {
+    background-color: #17181b;
+}
+span{
+	color: #a0a0a0;
+}
+
+.single-poster-age-rating{
+	color: #a0a0a0;
+}
+input[type="date" i] {
+	background-color: #17181b;
+	border-color: #17181b;
+	color: #a0a0a0;
+}
+
+.register_fields h1{
+	color: #00C6A7;
+}
+
+.signin {
+    background-color: #252527;
+}
+
+
+.register_fields input[type=text], input[type=password] {
+	background: #252527;
+	color: #00C6A7;
+}
+
+.register_fields input[type=text]:focus, input[type=password]:focus {
+    background-color: #3f3f42;
+}
+
+hr {
+    border: 1px solid #cecece;
+}
+
+.servResponse{
+	color: #fff;
+}
+
+.ce_loader{
+    background-image: url("../img/ajax-loader-dark.gif");
+}
+
+#loader{
+    background-image: url("../img/ajax-loader-dark.gif");
+}
+
+ .discoverFilterBtn{
+     background-color: #17181b;
+}
+
+.modal-content {
+    background-color: #252527;
+}
+
+.hero-posters.single-splash-poster img{
+    background: url("img/ajax-loader-dark.gif");
+}
